@@ -18,3 +18,11 @@
 - PCA (Youri)
 - Covariance matrix (Théophile)
 - Recherche MIL (Louis)
+
+## References
+
+### MIL
+- Site qui fait une review de review https://mars-tin.github.io/archives/reading/multiple_instance/
+- Article "Multiple Instance Learning: A Survey of Problem Characteristics and Applications" https://arxiv.org/pdf/1612.03365.pdf
+- Site review méthodes https://www.cs.cmu.edu/~juny/MILL/review.htm
+- Arcile, ultra cité, "Multiple instance classification: Review, taxonomy and comparative study" https://www.sciencedirect.com/science/article/pii/S0004370213000581
