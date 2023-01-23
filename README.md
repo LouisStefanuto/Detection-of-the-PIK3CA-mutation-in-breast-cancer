@@ -4,3 +4,9 @@
 
 - Chercher des méthodes de Multiple Instance Learning (MIL) : https://en.wikipedia.org/wiki/Multiple_instance_learning
 - Trouver un moyen d'attribuer un score à une tile
+
+## En cours
+
+- PCA (Youri)
+- Covariance matrix (Théophile)
+- Recherche MIL
