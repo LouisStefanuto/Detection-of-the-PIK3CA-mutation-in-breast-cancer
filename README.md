@@ -1,28 +1,20 @@
 # Owkin data challenge 2023
 
-## TODO
+3-day Data challenge, hosted by Owkin, at Mines Paris PSL. 
 
-- Chercher des méthodes de Multiple Instance Learning (MIL) : https://en.wikipedia.org/wiki/Multiple_instance_learning
-- Trouver un moyen d'attribuer un score à une tile
-- Remplacer la logistic regression par un modèle plus complexe de classification binaire
-- Idée clustering : 1. On regroupe les tiles en K clusters. 2. Calculer la pureté de chaque cluster 3. Les clusters avec les plus forts % de malades devraient correspondre à un type de tiles importants pour prédire la maladie.
+Scored 2nd place submission on the private academic LB (Public LB 0.6538 / Private LB = 0.6167).
 
-## Side notes
+Link to the competition overview and data : https://challengedata.ens.fr/participants/challenges/98/
 
-- Arthur a insisté sur le fait que les données pouvaient venir d'un hôpital autre, et que ça avait un gros impact (?)
-- Comment utiliser les metadata ?
-- léger déséquilibre de classes ⇒ rebalancer ?
+Team name : c_est_la_baseline
 
-## En cours
+# References
+- Maximilian Ilse, Jakub M. Tomczak, Max Welling, "Attention-based Deep Multiple Instance Learning", https://arxiv.org/abs/1802.04712
+- MIL review https://mars-tin.github.io/archives/reading/multiple_instance/
+- "Multiple Instance Learning: A Survey of Problem Characteristics and Applications" https://arxiv.org/pdf/1612.03365.pdf
+- "Multiple instance classification: Review, taxonomy and comparative study" https://www.sciencedirect.com/science/article/pii/S0004370213000581
 
-- PCA (Youri)
-- Covariance matrix (Théophile)
-- Recherche MIL (Louis)
+# Notes
 
-## References
-
-### MIL
-- Site qui fait une review de review https://mars-tin.github.io/archives/reading/multiple_instance/
-- Article "Multiple Instance Learning: A Survey of Problem Characteristics and Applications" https://arxiv.org/pdf/1612.03365.pdf
-- Site review méthodes https://www.cs.cmu.edu/~juny/MILL/review.htm
-- Arcile, ultra cité, "Multiple instance classification: Review, taxonomy and comparative study" https://www.sciencedirect.com/science/article/pii/S0004370213000581
+- The architecture is the result of multiple iterations of architecture tests. Compared to most teams which overfitted to the public test set, our model achieves poorer score on the public LB, but much better generalization score on the private test set (strong discrepancies). 
+- This repo is work in progress : it hasn't been cleaned since the competition.
